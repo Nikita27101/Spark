@@ -1,0 +1,91 @@
+.hover13 figure:hover img {
+	opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+.hover13 span {
+	position: absolute;
+	bottom: px;
+	left: 0;
+	z-index: -1;
+	display: block;
+	width: 300px;
+	margin: 0;
+	padding: 0;
+    padding-left: 60px;
+	color: #444;
+	font-size: 18px;
+	text-decoration: none;
+	text-align: center;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	opacity: 0;
+}
+figure {
+	
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	overflow: hidden;
+}
+figure:hover+span {
+	bottom: px;
+	opacity: 1;
+    padding-left: 60px;
+}
+b:hover
+{
+text-decoration: underline;
+
+}
+.shwd
+{
+  text-shadow:cadetblue 3px 3px 3px;
+}
+.btn
+{
+    cursor: pointer;
+    position: relative;
+    padding: 15px 20px;
+    line-height: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    border: 1px solid black;
+    background-image: linear-gradient(90deg, rgb(137, 219, 247) 0%, white 100%); 
+	box-shadow: 0 1rem 1.25rem 0 #339ca1 inset;
+}
+.btn:hover
+{
+    background-image: linear-gradient(90deg, white 0%, rgb(69, 160, 190) 150%); 
+	box-shadow: 0 1rem 1.25rem 0 #239096 inset;
+}
+.bt
+{
+	background-color: rgb(243, 236, 236);
+	cursor:grabbing;
+	padding: 10px 15px;
+	border:2px solid black;
+	font-size: 18px;
+}
+.bt:hover
+{
+	background-color: cadetblue;
+	color: floralwhite;
+	
+}

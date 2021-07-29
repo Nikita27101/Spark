@@ -1,0 +1,18 @@
+b:hover
+{
+text-decoration: underline;
+
+}
+img:hover
+{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.shwd
+{
+    text-shadow: cadetblue 2px 2px 2px;
+}
+.sh
+{
+    text-shadow: rgb(30, 32, 32) 1px 1px 1px;   
+}

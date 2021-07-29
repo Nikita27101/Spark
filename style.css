@@ -1,0 +1,22 @@
+
+b:hover
+{
+text-decoration: underline;
+
+}
+.clr
+{
+  background-color:honeydew;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hover01 img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+  cursor: pointer;
+}
+.hover01 :hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}

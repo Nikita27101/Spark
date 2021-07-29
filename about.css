@@ -1,0 +1,40 @@
+.hover07 figure img {
+	-webkit-filter: blur(2px);
+	filter: blur(2px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover07 figure:hover img {
+	-webkit-filter: blur(0);
+	filter: blur(0);
+}
+b:hover
+{
+text-decoration: underline;
+
+}
+h4{
+    font-weight: 700;
+	
+}
+h5
+{
+    color: cadetblue;
+    font-weight: 600;
+}
+.bt
+{
+	background-color: rgb(255, 255, 255);
+	cursor:grabbing;
+	padding: 8px 10px;
+	border:2px solid cadetblue;
+	font-size: 15px;
+    font-weight: 600;
+    color: cadetblue;
+}
+.bt:hover
+{
+	background-color: cadetblue;
+	color: floralwhite;
+	
+}
